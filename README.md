@@ -4,10 +4,11 @@ A blog website developend in Node.js and MongoDB
 ## Setup
 To run the project follow the below steps
 ### Note
-#### To Insert Authors you have to hit the end point from postman <br> or thunderclient or any of these types of software for that matter
-before running the project make sure you have Node.js and xampp installed in your machine <br>
-step-1: Open phpMyAdmin and create database named blogsDB<br>
-step-2: Open the sql file and copy the queries, run this in to the sql query interface<br>
+#### Only registered author can login, they have to contact the developers to create the profile
+### To know more about registration of author check the admin cntoller file in controller folder
+before running the project make sure you have Node.js and MongoDB installed in your machine <br>
+step-1: Open MongoDB and create database named blogsDB<br>
+step-2: Open the blogs.json and user.json file and copy the queries, run this in to the mongoDB query interface or import the files<br>
 step-3: Open the terminal in the folder and enter the command ```npm i```<br>
 step-4: After the pocess finished run the command ```npm start```<br>
 step-5: Open your browser and enter the ```localhost:3000/```<br>
