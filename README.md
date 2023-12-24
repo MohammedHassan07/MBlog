@@ -1,5 +1,5 @@
 # TechBlog
-A blog website developend in Node.js and MySQL
+A blog website developend in Node.js and MongoDB
 
 ## Setup
 To run the project follow the below steps
